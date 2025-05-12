@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DataDock - Ghana's Cheapest Data Bundles</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>DataDock - Ghana's Cheapest Data Bundles</h1>
+      <p class="tagline">Undercutting all competitors while maintaining quality service</p>
+    </div>
+  </header>
+  <div class="container">
+    <div class="order-section">
+      <h2 class="section-title">Order Your Data Plan Now</h2>
+      <div class="order-form">
+        <label for="data-plan">Select Your Data Plan:</label>
+        <select id="data-plan" name="data-plan">
+          <!-- MTN Options -->
+          <option value="MTN 1GB - ₵5.50">MTN 1GB - ₵5.50</option>
+          <option value="MTN 2GB - ₵11.00">MTN 2GB - ₵11.00</option>
+          <option value="MTN 3GB - ₵14.50">MTN 3GB - ₵14.50</option>
+          <option value="MTN 4GB - ₵21.00">MTN 4GB - ₵21.00</option>
+          <option value="MTN 5GB - ₵26.00">MTN 5GB - ₵26.00</option>
+          <option value="MTN 6GB - ₵30.00">MTN 6GB - ₵30.00</option>
+          <option value="MTN 7GB - ₵36.00">MTN 7GB - ₵36.00</option>
+          <option value="MTN 8GB - ₵39.00">MTN 8GB - ₵39.00</option>
+          <option value="MTN 10GB - ₵46.00">MTN 10GB - ₵46.00</option>
+          <option value="MTN 15GB - ₵67.00">MTN 15GB - ₵67.00</option>
+          <option value="MTN 20GB - ₵85.00">MTN 20GB - ₵85.00</option>
+          <option value="MTN 25GB - ₵107.00">MTN 25GB - ₵107.00</option>
+          <option value="MTN 30GB - ₵127.00">MTN 30GB - ₵127.00</option>
+          <option value="MTN 40GB - ₵167.00">MTN 40GB - ₵167.00</option>
+          <option value="MTN 50GB - ₵202.00">MTN 50GB - ₵202.00</option>
+          <option value="MTN 100GB - ₵397.00">MTN 100GB - ₵397.00</option>
+          <!-- Airtel-Tigo Options -->
+          <option value="Airtel-Tigo 1GB - ₵4.50">Airtel-Tigo 1GB - ₵4.50</option>
+          <option value="Airtel-Tigo 2GB - ₵9.50">Airtel-Tigo 2GB - ₵9.50</option>
+          <option value="Airtel-Tigo 3GB - ₵14.50">Airtel-Tigo 3GB - ₵14.50</option>
+          <option value="Airtel-Tigo 4GB - ₵18.00">Airtel-Tigo 4GB - ₵18.00</option>
+          <option value="Airtel-Tigo 5GB - ₵23.00">Airtel-Tigo 5GB - ₵23.00</option>
+          <option value="Airtel-Tigo 6GB - ₵26.00">Airtel-Tigo 6GB - ₵26.00</option>
+          <option value="Airtel-Tigo 7GB - ₵30.00">Airtel-Tigo 7GB - ₵30.00</option>
+          <option value="Airtel-Tigo 8GB - ₵34.00">Airtel-Tigo 8GB - ₵34.00</option>
+          <option value="Airtel-Tigo 9GB - ₵38.50">Airtel-Tigo 9GB - ₵38.50</option>
+          <option value="Airtel-Tigo 10GB - ₵42.00">Airtel-Tigo 10GB - ₵42.00</option>
+          <option value="Airtel-Tigo 15GB - ₵57.00">Airtel-Tigo 15GB - ₵57.00</option>
+          <option value="Airtel-Tigo 20GB - ₵67.00">Airtel-Tigo 20GB - ₵67.00</option>
+          <option value="Airtel-Tigo 25GB - ₵83.00">Airtel-Tigo 25GB - ₵83.00</option>
+          <option value="Airtel-Tigo 30GB - ₵92.00">Airtel-Tigo 30GB - ₵92.00</option>
+          <option value="Airtel-Tigo 40GB - ₵107.00">Airtel-Tigo 40GB - ₵107.00</option>
+          <option value="Airtel-Tigo 50GB - ₵118.00">Airtel-Tigo 50GB - ₵118.00</option>
+          <option value="Airtel-Tigo 60GB - ₵128.00">Airtel-Tigo 60GB - ₵128.00</option>
+          <option value="Airtel-Tigo 80GB - ₵157.00">Airtel-Tigo 80GB - ₵157.00</option>
+          <option value="Airtel-Tigo 100GB - ₵213.00">Airtel-Tigo 100GB - ₵213.00</option>
+          <!-- Telecel Options -->
+          <option value="Telecel 5GB - ₵26.00">Telecel 5GB - ₵26.00</option>
+          <option value="Telecel 10GB - ₵46.00">Telecel 10GB - ₵46.00</option>
+          <option value="Telecel 15GB - ₵67.00">Telecel 15GB - ₵67.00</option>
+          <option value="Telecel 20GB - ₵83.00">Telecel 20GB - ₵83.00</option>
+          <option value="Telecel 25GB - ₵103.00">Telecel 25GB - ₵103.00</option>
+          <option value="Telecel 30GB - ₵119.00">Telecel 30GB - ₵119.00</option>
+          <option value="Telecel 40GB - ₵158.00">Telecel 40GB - ₵158.00</option>
+          <option value="Telecel 50GB - ₵192.00">Telecel 50GB - ₵192.00</option>
+        </select>
+        <label for="phone-number">Enter Number To Receive Bundle:</label>
+        <input type="text" id="phone-number" name="phone-number" placeholder="e.g., +233 242799990">
+        <input type="submit" value="Order Now" onclick="sendWhatsAppMessage()">
+      </div>
+      <p style="font-size: 1.2rem; font-weight: bold; margin-top: 2rem;">Join our channel for More discounted Rates</p>
+      <button class="cta-button"
+        onclick="window.open('https://whatsapp.com/channel/0029VbAHZyU3GJOs2xQR4p3a', '_blank')">Join WhatsApp
+        Channel</button>
+    </div>
+    <section class="promo hvr-wobble-to-top-right">
+      <h2>🔥 Why Pay More When You Can Get CHEAPER DATA? 🔥</h2>
+      <p>We've analyzed every competitor in the market to bring you the absolute BEST prices on MTN, Airtel-Tigo, and
+        Telecel data bundles.</p>
+      <div class="highlight">Save up to 20% compared to other resellers!</div>
+      <div class="benefits">
+        <div class="benefit-item bob-float bob">
+          <i>📶</i>
+          <h3>Fast Delivery</h3>
+          <p>Receive your data within An Hour via SMS/USSD</p>
+        </div>
+        <div class="benefit-item bob-float bob">
+          <i>💰</i>
+          <h3>Best Prices</h3>
+          <p>Cheaper than Competitor and mainstream providers</p>
+        </div>
+        <div class="benefit-item bob-float bob">
+          <i>🛡️</i>
+          <h3>Reliable Service</h3>
+          <p>24/7 customer support for all your needs</p>
+        </div>
+      </div>
+    </section>
+    <h2 class="section-title">Our Competitive Pricing Strategy</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>MTN Ghana Bundles</h3>
+        </div>
+        <div class="card-body">
+          <p style="color: var(--text-dark);">We offer the best MTN prices while maintaining healthy 15-25% profit
+            margins.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Bundle Size</th>
+                <th>Our Pricing</th>
+                <th>Mainstream Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1GB</td>
+                <td class="your-price">₵5.50</td>
+                <td>₵10.50</td>
+              </tr>
+              <tr>
+                <td>2GB</td>
+                <td class="your-price">₵11.00</td>
+                <td>₵16.50</td>
+              </tr>
+              <tr>
+                <td>3GB</td>
+                <td class="your-price">₵14.50</td>
+                <td>₵19.50</td>
+              </tr>
+              <tr>
+                <td>4GB</td>
+                <td class="your-price">₵21.00</td>
+                <td>₵26.50</td>
+              </tr>
+              <tr>
+                <td>5GB</td>
+                <td class="your-price">₵26.00</td>
+                <td>₵31.50</td>
+              </tr>
+              <tr>
+                <td>6GB</td>
+                <td class="your-price">₵30.00</td>
+                <td>₵35.50</td>
+              </tr>
+              <tr>
+                <td>7GB</td>
+                <td class="your-price">₵36.00</td>
+                <td>₵41.50</td>
+              </tr>
+              <tr>
+                <td>8GB</td>
+                <td class="your-price">₵39.00</td>
+                <td>₵44.50</td>
+              </tr>
+              <tr>
+                <td>10GB</td>
+                <td class="your-price">₵46.00</td>
+                <td>₵51.50</td>
+              </tr>
+              <tr>
+                <td>15GB</td>
+                <td class="your-price">₵67.00</td>
+                <td>₵72.50</td>
+              </tr>
+              <tr>
+                <td>20GB</td>
+                <td class="your-price">₵85.00</td>
+                <td>₵90.50</td>
+              </tr>
+              <tr>
+                <td>25GB</td>
+                <td class="your-price">₵107.00</td>
+                <td>₵112.50</td>
+              </tr>
+              <tr>
+                <td>30GB</td>
+                <td class="your-price">₵127.00</td>
+                <td>₵132.50</td>
+              </tr>
+              <tr>
+                <td>40GB</td>
+                <td class="your-price">₵167.00</td>
+                <td>₵172.50</td>
+              </tr>
+              <tr>
+                <td>50GB</td>
+                <td class="your-price">₵202.00</td>
+                <td>₵207.50</td>
+              </tr>
+              <tr>
+                <td>100GB</td>
+                <td class="your-price">₵397.00</td>
+                <td>₵402.50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>Airtel-Tigo Bundles</h3>
+        </div>
+        <div class="card-body">
+          <p style="color: var(--text-dark);">The absolute cheapest data in Ghana with bulk discounts that beat
+            everyone.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Bundle Size</th>
+                <th>Our Pricing</th>
+                <th>Mainstream Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1GB</td>
+                <td class="your-price">₵4.50</td>
+                <td>₵9.50</td>
+              </tr>
+              <tr>
+                <td>2GB</td>
+                <td class="your-price">₵9.50</td>
+                <td>₵14.50</td>
+              </tr>
+              <tr>
+                <td>3GB</td>
+                <td class="your-price">₵14.50</td>
+                <td>₵19.50</td>
+              </tr>
+              <tr>
+                <td>4GB</td>
+                <td class="your-price">₵18.00</td>
+                <td>₵23.50</td>
+              </tr>
+              <tr>
+                <td>5GB</td>
+                <td class="your-price">₵23.00</td>
+                <td>₵28.50</td>
+              </tr>
+              <tr>
+                <td>6GB</td>
+                <td class="your-price">₵26.00</td>
+                <td>₵31.50</td>
+              </tr>
+              <tr>
+                <td>7GB</td>
+                <td class="your-price">₵30.00</td>
+                <td>₵35.50</td>
+              </tr>
+              <tr>
+                <td>8GB</td>
+                <td class="your-price">₵34.00</td>
+                <td>₵39.50</td>
+              </tr>
+              <tr>
+                <td>9GB</td>
+                <td class="your-price">₵38.50</td>
+                <td>₵43.50</td>
+              </tr>
+              <tr>
+                <td>10GB</td>
+                <td class="your-price">₵42.00</td>
+                <td>₵47.50</td>
+              </tr>
+              <tr>
+                <td>15GB</td>
+                <td class="your-price">₵57.00</td>
+                <td>₵62.50</td>
+              </tr>
+              <tr>
+                <td>20GB</td>
+                <td class="your-price">₵67.00</td>
+                <td>₵72.50</td>
+              </tr>
+              <tr>
+                <td>25GB</td>
+                <td class="your-price">₵83.00</td>
+                <td>₵88.50</td>
+              </tr>
+              <tr>
+                <td>30GB</td>
+                <td class="your-price">₵92.00</td>
+                <td>₵97.50</td>
+              </tr>
+              <tr>
+                <td>40GB</td>
+                <td class="your-price">₵107.00</td>
+                <td>₵112.50</td>
+              </tr>
+              <tr>
+                <td>50GB</td>
+                <td class="your-price">₵118.00</td>
+                <td>₵123.50</td>
+              </tr>
+              <tr>
+                <td>60GB</td>
+                <td class="your-price">₵128.00</td>
+                <td>₵133.50</td>
+              </tr>
+              <tr>
+                <td>80GB</td>
+                <td class="your-price">₵157.00</td>
+                <td>₵162.50</td>
+              </tr>
+              <tr>
+                <td>100GB</td>
+                <td class="your-price">₵213.00</td>
+                <td>₵218.50</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3>Telecel Bundles</h3>
+        </div>
+        <div class="card-body">
+          <p style="color: var(--text-dark);">Competitive pricing for Telecel users with reliable connectivity.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Bundle Size</th>
+                <th>Our Pricing</th>
+                <th>Mainstream Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>5GB</td>
+                <td class="your-price">₵26.00</td>
+                <td>₵31.00</td>
+              </tr>
+              <tr>
+                <td>10GB</td>
+                <td class="your-price">₵46.00</td>
+                <td>₵51.00</td>
+              </tr>
+              <tr>
+                <td>15GB</td>
+                <td class="your-price">₵67.00</td>
+                <td>₵72.00</td>
+              </tr>
+              <tr>
+                <td>20GB</td>
+                <td class="your-price">₵83.00</td>
+                <td>₵88.00</td>
+              </tr>
+              <tr>
+                <td>25GB</td>
+                <td class="your-price">₵103.00</td>
+                <td>₵108.00</td>
+              </tr>
+              <tr>
+                <td>30GB</td>
+                <td class="your-price">₵119.00</td>
+                <td>₵124.00</td>
+              </tr>
+              <tr>
+                <td>40GB</td>
+                <td class="your-price">₵158.00</td>
+                <td>₵163.00</td>
+              </tr>
+              <tr>
+                <td>50GB</td>
+                <td class="your-price">₵192.00</td>
+                <td>₵197.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <h2 class="section-title">Market Comparison Analysis</h2>
+    <div class="comparison">
+      <h3 style="color: var(--text-dark);">How We Stack Up Against Competitors (Price in GH₵)</h3>
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Bundle</th>
+            <th>Our Price</th>
+            <th>Mainstream Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MTN 1GB</td>
+            <td>5.50</td>
+            <td>10.50</td>
+          </tr>
+          <tr>
+            <td>MTN 5GB</td>
+            <td>26.00</td>
+            <td>31.50</td>
+          </tr>
+          <tr>
+            <td>Airtel 5GB</td>
+            <td>23.00</td>
+            <td>28.50</td>
+          </tr>
+          <tr>
+            <td>Airtel 100GB</td>
+            <td>213.00</td>
+            <td>218.50</td>
+          </tr>
+          <tr>
+            <td>Telecel 10GB</td>
+            <td>46.00</td>
+            <td>51.00</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 style="margin-top: 2rem; color: var(--text-dark);">Key Competitive Advantages</h3>
+      <ul style="margin: 1rem 0 1rem 2rem;">
+        <li style="color: var(--text-dark);">
+          <strong>MTN Strategy:</strong> Maximize profits on smaller bundles (1GB–10GB) while still offering better
+          prices than the competition.
+        </li>
+        <li style="color: var(--text-dark);">
+          <strong>Airtel-Tigo Strategy:</strong> Priced slightly above reseller rates but noticeably lower than market
+          competitors.
+        </li>
+        <li style="color: var(--text-dark);">
+          <strong>Telecel Strategy:</strong> Competitive pricing with consistent 7–10% savings compared to other
+          providers.
+        </li>
+      </ul>
+
+    </div>
+    <div class="promo">
+      <h2>🎉 Enjoy Exclusive Rewards with DataDock Ghana!</h2>
+      <p>📲 Join today and unlock unbeatable discounts and special perks tailored just for you!</p>
+      <p>🎁 <strong>Invite & Earn:</strong> Share DataDock with friends and earn exciting rewards!</p>
+      <p>🎂 <strong>Birthday Bonuses:</strong> Celebrate your day with exclusive discounts from us to you!</p>
+      <p>💌 <strong>Send a Bundle:</strong> Give the gift of data to family and friends, anytime!</p>
+      <p>📦 <strong>Bulk Saver Deals:</strong> Get more data for less when you buy in bulk!</p>
+      <p>✨ Sign up now and start enjoying all these amazing benefits—only with DataDock!</p>
+
+      <hr style="margin: 2rem 0; border: 1px solid var(--dark);"> <!-- Divider line with spacing -->
+      <p class="recommend">Recommend a Friend</p>
+      <div class="order-form">
+        <label for="friend-number">Enter Friend's Number:</label>
+        <input type="text" id="friend-number" name="friend-number" placeholder="e.g., +233 242499990"
+          style="border: 2px solid var(--dark);">
+        <input class="hvr-grow" type="submit" value="Recommend" style="background-color: var(--recommend-color);"
+          onclick="sendRecommendationMessage()">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container hvr-grow">
+      <h3>DataDock - Ghana's Data Market Leader</h3>
+      <div class="contact-info">
+        <p>📱 WhatsApp: +233503868557/+13323237658</p>
+        <p>📞 Call/SMS: +233557560911</p>
+        <p>📧 Email: abdulbarcky2001@gmail.com</p>
+        <p>🏢 Trending Boss, Asamankese, Ghana</p>
+      </div>
+      <p>© 2025 DataDock. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
