@@ -3,7 +3,7 @@ function sendWhatsAppMessage() {
         const phoneNumber = document.getElementById('phone-number').value;
         const [bundle, cost] = plan.split(' - ');
         const message = `I want to order ${bundle} for ${cost}. Bundle For This Number ${phoneNumber}.`;
-        const whatsappUrl = `https://wa.me/+233503868557?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/+233557560911?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
       }
 
