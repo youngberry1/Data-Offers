@@ -451,28 +451,3 @@ p.recommend {
   height: 200px;
   object-fit:cover
 }
-
-/* Style the select element */
-#data-plan {
-  height: 10vh; /* Set height to 10% of the viewport height */
-  max-height: 7vh; /* Ensure it doesn't exceed 10% of the screen height */
-  overflow-y: auto; /* Enable vertical scrolling if needed */
-  font-size: 14px; /* Adjust font size */
-  border: 1px solid #ccc; /* Add a border */
-  border-radius: 4px; /* Add rounded corners */
-  background-color: #fff; /* Set background color */
-}
-
-/* Style the options inside the select */
-#data-plan option {
-  font-size: 14px; /* Adjust font size */
-  padding: 5px; /* Add padding for better spacing */
-}
-
-/* Add media query for mobile devices */
-@media (max-width: 768px) {
-  #data-plan {
-    height: 8vh; /* Slightly smaller height for mobile */
-    font-size: 12px; /* Adjust font size for smaller screens */
-  }
-}
